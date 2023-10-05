@@ -1,0 +1,50 @@
+$container-max-widths: (
+  lg: 960px,
+);
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #FFFFFF; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 60%; background-color: #04AA6D;} /* Green */
+.css {width: 90%; background-color: #2196F3;} /* Blue */
+.js {width: 40%; background-color: #f44336;} /* Red */
+.php {width: 100%; background-color: #808080;} /* Dark Grey */
+.T {width: 90%; background-color: #04AA6D;} /* Green */
+.E {width: 70%; background-color: #2196F3;} /* Blue */
+.J {width: 40%; background-color: #f44336;} /* Red */
+
+
+h2 {
+font-family: 'Kanit', sans-serif;
+
+}
+
+h4 {
+font-family: 'Kanit', sans-serif;
+  
+}
+
+p{
+  font-family: 'Bai Jamjuree', sans-serif;
+  
+}
+
+h1 {
+font-family: 'Bai Jamjuree', sans-serif;
+font-family: 'Dela Gothic One', cursive;
+font-family: 'Libre Baskerville', serif;
+  
+}
+
